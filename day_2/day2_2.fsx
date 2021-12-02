@@ -21,14 +21,3 @@ filePath
 |> Seq.reduce(fun x y -> calculateCoordinates x y)
 |> multiply
 |> printfn "%d"
-
-
-
-
-
-
-
-    // printfn "forward %d" f
-    // printfn "depth %d" d
-    // printfn "current depth %d" cd
-    // printfn "result depth %d" ((cd + d) * f)
